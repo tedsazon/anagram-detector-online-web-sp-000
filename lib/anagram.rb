@@ -6,7 +6,7 @@ class Anagram
     @word = word
   end
 
-  def match(anagrams)
-    anagarams.detect {|word| word}
+  def self.match(anagrams)
+    anagarams.detect {|word| word == anagram}
   end
 end
