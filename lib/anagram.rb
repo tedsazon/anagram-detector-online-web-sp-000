@@ -7,6 +7,6 @@ class Anagram
   end
 
   def match(anagrams)
-    anagarams.detect {|anagram| anagram == anagrams}
+    anagarams.detect {|word| word}
   end
 end
